@@ -8,7 +8,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del bigliett
 
 
 1 - Chiedere all'utente i km da percorrere;
-2 - chiedere all'utente l'età del passeggero;
+2 - chiedere all'utente fascia d'età del passeggero;
 3 - calcolare prezzo del biglietto formula 0.21 * km;
 4 - IF l'età del passeggero é < 18 anni viene applicato sconto del 20%;
 5 - ELSE IF l'età del passeggero é > 65 anni viene applicato sconto del 40%;
