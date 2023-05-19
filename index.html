@@ -7,10 +7,14 @@
         <title>Document</title>
     </head>
     <body>
-        <input type="text" name="name" id="name" placeholder="nome e cognome">
-        <input type="text" name="km" id="km" placeholder="chilometru">
-        <input type="text" name="age" id="age" placeholder="fascia d eta">
+        <input type="number" min="0" name="km" id="km" placeholder="chilometru">
+        <select id="age">
+            <option value="0">Maggiorenne</option>
+            <option value="1">Minorenne</option>
+            <option value="2">Senior</option>
+        </select>
         <button id="submit">Genera</button>
+        <div id="price"></div>
     <script type="text/javascript" src="./js/script.js"></script>
     </body>
 </html>
